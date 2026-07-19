@@ -45,6 +45,9 @@ transition-property: opacity, transform;
 }
 
 .modal-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     top: 24px;
     right: 24px;
@@ -98,7 +101,7 @@ margin-bottom: 4px;
 }
 
 .modal-form-input {
-border: 1px solid #2E2F42;
+border: 1px solid rgba(46, 47, 66, 0.4);
 outline: transparent;
 background-color: transparent;
     border-radius: 4px;
